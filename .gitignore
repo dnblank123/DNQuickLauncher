@@ -1,32 +1,222 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# General C++ build artifacts
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+*.o
+*.lo
 *.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dylib
 *.a
 *.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
 
 # Executables
 *.exe
 *.out
 *.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.pgc
+*.pgd
+*.orig
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+CMakeLists.txt.user
+
+# CMake build directory
+/build/
+_build/
+*/build/
+*/_build/
+build-*/
+
+# IDEs and Editors
+
+## Visual Studio Code
+.vscode/
+.vscode/*
+
+## Visual Studio
+.vscode/
+.vscode/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Thumbnail Cache
+thumbcache*.db
+
+# Windows Update Standalone Installer
+*.wim
+
+# Windows Media Metadata
+*.avi
+*.mov
+*.mpg
+*.mp4
+*.mkv
+*.swf
+*.fla
+*.flv
+*.3gp
+*.m4v
+*.rm
+*.ram
+*.vob
+*.wmv
+*.aac
+*.adt
+*.adts
+*.aif
+*.aifc
+*.aiff
+*.au
+*.caf
+*.flac
+*.m4a
+*.m4b
+*.m4p
+*.mid
+*.midi
+*.mp3
+*.mpa
+*.ogg
+*.ra
+*.wav
+*.wma
+
+# Windows PowerShell
+*.ps1
+*.psm1
+*.psd1
+*.ps1xml
+*.pssc
+*.psrc
+*.cdxml
+*.psc1
+*.ps1.bak
+*.psm1.bak
+*.psd1.bak
+*.ps1.xml
+*.psm1.xml
+*.psd1.xml
+*.ps1.~*
+*.psm1.~*
+*.psd1.~*
+*.ps1.bak
+*.psm1.bak
+*.psd1.bak
+*.ps1.dmp
+*.psm1.dmp
+*.psd1.dmp
+*.ps1.xml
+*.psm1.xml
+*.psd1.xml
+*.ps1.xml.bak
+*.psm1.xml.bak
+*.psd1.xml.bak
+*.ps1.xml.dmp
+*.psm1.xml.dmp
+*.psd1.xml.dmp
+
+# Visual Studio Code workspace settings
+*.code-workspace
+
+# JetBrains Rider
+.idea/
+
+# JetBrains Rider build directories
+/build/
+out/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
